@@ -156,6 +156,22 @@ convention but encourage its use if you want your PR to feature in the correct s
 The change log generator will also look at GitHub labels such as `bug`, `enhancement`, or `api change`, and labels
 do take priority over the conventional commit approach, allowing maintainers to re-categorize PRs after they have been merged.
 
+### Commit Prefix Guide
+
+| Prefix      | Description                                  |
+|-------------|----------------------------------------------|
+| `feat`      | New feature addition                         |
+| `fix`       | Bug fix                                      |
+| `docs`      | Documentation change                         |
+| `style`     | Code style change (formatting, etc.)         |
+| `chore`     | Build tasks, CI updates, tooling changes     |
+
+### Example PR Titles
+
+- `feat: add support for distributed scheduler`
+- `fix: correct typo in README`
+- `docs: update contributing guidelines`
+
 [conventional commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 # Reviewing Pull Requests
